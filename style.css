@@ -78,7 +78,7 @@ header {
 }
 
 .searchInput:focus {
-    color: #00B4CC;
+    color: #1f1f1f;
 }
 
 .searchButton {
@@ -98,6 +98,12 @@ header {
     display: inline-block;
     vertical-align: middle;
     height: 90%;
+}
+
+.loginButton:hover,
+.panierButton:hover {
+    outline: 0;
+    transform: scale(1.2);
 }
 
 .loginButton,
@@ -146,7 +152,12 @@ header {
     justify-content: center;
     background-color: gray;
     padding: 40px;
+    transition: 0.3s;
 }
+
+.article:hover {
+    background-color: rgb(85, 85, 85);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;}
 
 .article h1 {
     align-self: flex-start;
